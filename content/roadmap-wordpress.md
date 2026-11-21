@@ -1,7 +1,7 @@
 ---
-title: "Roadmap belajar WordPress"
-navTitle: "Roadmap WordPress"
-description: "Urutan belajar WordPress langsung dari hosting cPanel sampai bisa bikin theme, plugin, toko online, dan optimasi produksi."
+title: "Roadmap belajar WordPress khusus Tegar"
+navTitle: "Roadmap belajar WordPress"
+description: "Urutan belajar WordPress khusus Tegar langsung dari hosting cPanel sampai bisa bikin theme, plugin, toko online, dan optimasi produksi."
 slug: "roadmap-wordpress"
 group: "Khusus Tegar"
 order: 6

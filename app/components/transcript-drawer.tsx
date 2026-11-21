@@ -279,7 +279,7 @@ export function TranscriptDrawerProvider({
             className="inline-flex items-center gap-2 rounded-md bg-zinc-900 px-3.5 py-2 text-xs font-semibold text-zinc-50 transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-zinc-300"
           >
             <ChatGptIcon className="h-4 w-4" />
-            <span>Tanya ChatGPT &nearr;</span>
+            <span>Tanya ChatGPT ↗</span>
           </a>
           <a
             href={
@@ -291,7 +291,7 @@ export function TranscriptDrawerProvider({
             rel="noopener noreferrer"
             className="text-xs text-zinc-500 underline underline-offset-4 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
           >
-            Buka YouTube &nearr;
+            Buka YouTube ↗
           </a>
         </div>
       </>

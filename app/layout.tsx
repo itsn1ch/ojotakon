@@ -21,19 +21,25 @@ export const viewport: Viewport = {
   ],
 };
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "https://ojotakon.vercel.app");
+
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://ojotakon.com"
-  ),
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "ojotakon — Jangan tanya untuk bertanya, langsung tanya saja",
-    template: "%s · ojotakon",
+    default: "ojotakon. — Jangan tanya untuk bertanya, langsung tanya saja",
+    template: "%s · ojotakon.",
   },
   description:
     'Jangan cuma tanya "ada suhu Laravel di sini?" di grup chat. Langsung saja tulis pertanyaan dan detail masalahmu.',
   openGraph: {
-    siteName: "ojotakon",
-    title: "ojotakon — Jangan tanya untuk bertanya, langsung tanya saja",
+    siteName: "ojotakon.",
+    title: "ojotakon. — Jangan tanya untuk bertanya, langsung tanya saja",
     description:
       'Jangan cuma tanya "ada suhu Laravel di sini?" di grup chat. Langsung saja tulis pertanyaan dan detail masalahmu.',
     type: "website",
@@ -41,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ojotakon — Jangan tanya untuk bertanya, langsung tanya saja",
+    title: "ojotakon. — Jangan tanya untuk bertanya, langsung tanya saja",
     description:
       'Jangan cuma tanya "ada suhu Laravel di sini?" di grup chat. Langsung saja tulis pertanyaan dan detail masalahmu.',
   },

@@ -101,7 +101,7 @@ export function YouTubeGuideCard({ videoId, label, href, meta }: Props) {
             className="inline-flex items-center gap-1.5 rounded-md bg-zinc-900 px-2.5 py-1.5 text-[11px] font-semibold text-zinc-50 transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-zinc-300"
           >
             <ChatGptIcon className="h-3.5 w-3.5" />
-            <span>Tanya ChatGPT &nearr;</span>
+            <span>Tanya ChatGPT ↗</span>
           </a>
 
           <a
@@ -110,7 +110,7 @@ export function YouTubeGuideCard({ videoId, label, href, meta }: Props) {
             rel="noopener noreferrer"
             className="rounded-md border border-zinc-200 px-2 py-1.5 text-[11px] text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
           >
-            YouTube &nearr;
+            YouTube ↗
           </a>
         </div>
       </figcaption>

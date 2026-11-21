@@ -28,7 +28,7 @@ export async function renderOgCard({
     boldFontPromise,
   ]);
 
-  const titleFontSize = title.length > 36 ? 48 : 56;
+  const titleFontSize = title.length > 36 ? 46 : 54;
 
   return new ImageResponse(
     (
@@ -64,21 +64,21 @@ export async function renderOgCard({
           >
             <div
               style={{
-                width: "12px",
-                height: "12px",
+                width: "14px",
+                height: "14px",
                 borderRadius: "9999px",
                 backgroundColor: "#f43f5e",
               }}
             />
             <span
               style={{
-                fontSize: "28px",
+                fontSize: "34px",
                 fontWeight: 700,
-                letterSpacing: "-0.02em",
+                letterSpacing: "-0.03em",
                 color: "#fafafa",
               }}
             >
-              ojotakon
+              ojotakon.
             </span>
           </div>
 
@@ -86,7 +86,7 @@ export async function renderOgCard({
             style={{
               display: "flex",
               fontSize: "20px",
-              color: "#71717a",
+              color: "#a1a1aa",
               border: "1px solid #27272a",
               borderRadius: "8px",
               padding: "6px 14px",
@@ -103,7 +103,7 @@ export async function renderOgCard({
             display: "flex",
             flexDirection: "column",
             gap: "24px",
-            maxWidth: "980px",
+            maxWidth: "1000px",
           }}
         >
           <div
@@ -144,8 +144,8 @@ export async function renderOgCard({
             color: "#71717a",
           }}
         >
-          <span>panduan bertanya di grup chat &amp; forum</span>
-          <span style={{ color: "#d4d4d8", fontWeight: 700 }}>ojotakon</span>
+          <span>cara takon · ojo takon, langsung AI saja</span>
+          <span style={{ color: "#fafafa", fontWeight: 700 }}>ojotakon.</span>
         </div>
       </div>
     ),

@@ -98,7 +98,7 @@ export function ChatGptHint() {
           className="inline-flex items-center gap-2 rounded-md bg-zinc-900 px-3.5 py-2 text-xs font-semibold text-zinc-50 transition-colors hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-zinc-300"
         >
           <ChatGptLogo className="h-4 w-4" />
-          <span>Buka ChatGPT &nearr;</span>
+          <span>Buka ChatGPT ↗</span>
         </a>
         <button
           type="button"

@@ -40,3 +40,5 @@ Jadi, langsung tanyakan saja. Orang yang sedang santai dan sesekali melirik chat
 Masalah serupa: [Masalah XY](/xy-problem), [No Hello](/no-hello).
 
 Bacaan lanjut: [Cara bertanya yang baik](/how-to-ask), atau kalau punya waktu lebih: [Bertanya dengan cara cerdas](/smart-questions).
+
+Khusus Tegar: [Roadmap belajar WordPress](/roadmap-wordpress).
